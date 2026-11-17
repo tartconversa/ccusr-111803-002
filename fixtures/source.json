@@ -1,0 +1,25 @@
+{
+  "title": "跨页面旅行产品条款的版本归属",
+  "category": "旅行服务",
+  "choice": "出发批次",
+  "revision": "版本",
+  "detail_label": "行程条款",
+  "entity": "线路",
+  "fact": "条款",
+  "items": [
+    {
+      "id": "travel-a",
+      "name": "周末古城线路可约",
+      "group": "甲",
+      "detail": "行程条款甲",
+      "changed_detail": "行程条款修订甲"
+    },
+    {
+      "id": "travel-b",
+      "name": "周末古城线路待确认",
+      "group": "乙",
+      "detail": "行程条款乙",
+      "changed_detail": "行程条款修订乙"
+    }
+  ]
+}
