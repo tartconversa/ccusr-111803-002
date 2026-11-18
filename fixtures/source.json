@@ -3,7 +3,7 @@
   "category": "旅行服务",
   "choice": "出发批次",
   "revision": "版本",
-  "detail_label": "行程条款",
+  "detail_label": "行程条件",
   "entity": "线路",
   "fact": "条款",
   "items": [
@@ -12,14 +12,74 @@
       "name": "周末古城线路可约",
       "group": "甲",
       "detail": "行程条款甲",
-      "changed_detail": "行程条款修订甲"
+      "changed_detail": "行程条款修订甲",
+      "editions": {
+        "1": {
+          "catalog_name": "周末古城线路可约",
+          "batch": {
+            "batch_id": "travel-a-batch-1",
+            "label": "甲批",
+            "bookable": true
+          },
+          "detail": {
+            "batch_id": "travel-a-batch-1",
+            "meeting_point": "古城北门 08:00",
+            "terms": "行程条款甲",
+            "bookable": true
+          }
+        },
+        "2": {
+          "catalog_name": "周末古城线路可约（改期）",
+          "batch": {
+            "batch_id": "travel-a-batch-2",
+            "label": "甲批改期",
+            "bookable": true
+          },
+          "detail": {
+            "batch_id": "travel-a-batch-2",
+            "meeting_point": "古城东门 09:30",
+            "terms": "行程条款修订甲",
+            "bookable": true
+          }
+        }
+      }
     },
     {
       "id": "travel-b",
       "name": "周末古城线路待确认",
       "group": "乙",
       "detail": "行程条款乙",
-      "changed_detail": "行程条款修订乙"
+      "changed_detail": "行程条款修订乙",
+      "editions": {
+        "1": {
+          "catalog_name": "周末古城线路待确认",
+          "batch": {
+            "batch_id": "travel-b-batch-1",
+            "label": "乙批",
+            "bookable": false
+          },
+          "detail": {
+            "batch_id": "travel-b-batch-1",
+            "meeting_point": "城南车站 07:40",
+            "terms": "行程条款乙",
+            "bookable": false
+          }
+        },
+        "2": {
+          "catalog_name": "周末古城线路待确认",
+          "batch": {
+            "batch_id": "travel-b-batch-1",
+            "label": "乙批（条款修订）",
+            "bookable": true
+          },
+          "detail": {
+            "batch_id": "travel-b-batch-1",
+            "meeting_point": "城南车站 07:40",
+            "terms": "行程条款修订乙",
+            "bookable": true
+          }
+        }
+      }
     }
   ]
 }
